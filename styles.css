@@ -1,0 +1,104 @@
+body {
+    margin: 0; 
+    padding: 0px; 
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3rem;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.container-border {
+    height: 400px;
+    width: 400px; 
+    margin: 0 auto; 
+    background-color: red;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#container {
+    background-color: white;
+    height: 350px;  
+    width: 350px; 
+    max-width: 100%; 
+    display: grid; 
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    margin: auto; 
+    border: none;
+
+}
+
+#container div {
+    box-sizing: content-box; 
+    /* border: 1px solid black; */
+}
+
+.buttons {
+    margin: 0 auto; 
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+button {
+    height: 2.5rem;
+    width: 5rem;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-weight: 800;
+}
+
+.cell {
+    border: none; 
+}
+
+#regular {
+    background-color: #50BFE6;
+}
+
+#regular:hover {
+    background-color: #3787a3; 
+}
+
+#rainbow {
+    background-color: #66FF66;
+}
+
+#rainbow:hover {
+    background-color: #44ab44; 
+}
+
+#shades {
+    background-color: #FFCC33;
+}
+
+#shades:hover {
+    background-color: #b59124;
+}
+
+#reset {
+    background-color:#FF355E;
+}
+
+#reset:hover {
+    background-color: #ad233f;
+}
+
+.vertical {
+    font-size: 1.3rem;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
